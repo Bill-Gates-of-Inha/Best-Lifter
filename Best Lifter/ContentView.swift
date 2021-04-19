@@ -9,6 +9,9 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @State var touchedCount: Int = 0
+    @State var bornIn: Int = Int()
+    
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(

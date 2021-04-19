@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8942316F262DB2EC00AA65A7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942316E262DB2EC00AA65A7 /* Home.swift */; };
+		89423172262DB39700AA65A7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423171262DB39700AA65A7 /* Profile.swift */; };
+		89423175262DB39D00AA65A7 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423174262DB39D00AA65A7 /* Workout.swift */; };
+		89423178262DB3A100AA65A7 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423177262DB3A100AA65A7 /* Diet.swift */; };
+		8942317B262DB3A600AA65A7 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942317A262DB3A600AA65A7 /* Rank.swift */; };
+		8984C482261EAA1A00B1474C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984C481261EAA1A00B1474C /* Main.swift */; };
 		89CFF1DC2619F81400182D1A /* Best_LifterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */; };
 		89CFF1DE2619F81400182D1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFF1DD2619F81400182D1A /* ContentView.swift */; };
 		89CFF1E02619F81500182D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CFF1DF2619F81500182D1A /* Assets.xcassets */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8942316E262DB2EC00AA65A7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		89423171262DB39700AA65A7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		89423174262DB39D00AA65A7 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		89423177262DB3A100AA65A7 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
+		8942317A262DB3A600AA65A7 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		8984C481261EAA1A00B1474C /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		89CFF1D82619F81400182D1A /* Best Lifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Lifter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_LifterApp.swift; sourceTree = "<group>"; };
 		89CFF1DD2619F81400182D1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89423180262DB4A400AA65A7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8984C481261EAA1A00B1474C /* Main.swift */,
+				8942316E262DB2EC00AA65A7 /* Home.swift */,
+				89423171262DB39700AA65A7 /* Profile.swift */,
+				89423174262DB39D00AA65A7 /* Workout.swift */,
+				89423177262DB3A100AA65A7 /* Diet.swift */,
+				8942317A262DB3A600AA65A7 /* Rank.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		89CFF1CF2619F81400182D1A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +81,7 @@
 		89CFF1DA2619F81400182D1A /* Best Lifter */ = {
 			isa = PBXGroup;
 			children = (
+				89423180262DB4A400AA65A7 /* UI */,
 				89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */,
 				89CFF1DD2619F81400182D1A /* ContentView.swift */,
 				89CFF1DF2619F81500182D1A /* Assets.xcassets */,
@@ -144,9 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8984C482261EAA1A00B1474C /* Main.swift in Sources */,
 				89CFF1E52619F81500182D1A /* Persistence.swift in Sources */,
 				89CFF1DE2619F81400182D1A /* ContentView.swift in Sources */,
+				8942317B262DB3A600AA65A7 /* Rank.swift in Sources */,
+				89423175262DB39D00AA65A7 /* Workout.swift in Sources */,
+				89423172262DB39700AA65A7 /* Profile.swift in Sources */,
 				89CFF1DC2619F81400182D1A /* Best_LifterApp.swift in Sources */,
+				89423178262DB3A100AA65A7 /* Diet.swift in Sources */,
+				8942316F262DB2EC00AA65A7 /* Home.swift in Sources */,
 				89CFF1E82619F81500182D1A /* Best_Lifter.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
