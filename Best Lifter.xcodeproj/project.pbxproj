@@ -12,6 +12,8 @@
 		89423175262DB39D00AA65A7 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423174262DB39D00AA65A7 /* Workout.swift */; };
 		89423178262DB3A100AA65A7 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423177262DB3A100AA65A7 /* Diet.swift */; };
 		8942317B262DB3A600AA65A7 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942317A262DB3A600AA65A7 /* Rank.swift */; };
+		89803F2D262DDF4500D4F7A8 /* OnWorkOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89803F2C262DDF4500D4F7A8 /* OnWorkOut.swift */; };
+		89803F3A262DEABC00D4F7A8 /* StopwatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89803F39262DEABC00D4F7A8 /* StopwatchManager.swift */; };
 		8984C482261EAA1A00B1474C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984C481261EAA1A00B1474C /* Main.swift */; };
 		89CFF1DC2619F81400182D1A /* Best_LifterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */; };
 		89CFF1DE2619F81400182D1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFF1DD2619F81400182D1A /* ContentView.swift */; };
@@ -27,6 +29,8 @@
 		89423174262DB39D00AA65A7 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		89423177262DB3A100AA65A7 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
 		8942317A262DB3A600AA65A7 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		89803F2C262DDF4500D4F7A8 /* OnWorkOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnWorkOut.swift; sourceTree = "<group>"; };
+		89803F39262DEABC00D4F7A8 /* StopwatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchManager.swift; sourceTree = "<group>"; };
 		8984C481261EAA1A00B1474C /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		89CFF1D82619F81400182D1A /* Best Lifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Lifter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_LifterApp.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 				89423174262DB39D00AA65A7 /* Workout.swift */,
 				89423177262DB3A100AA65A7 /* Diet.swift */,
 				8942317A262DB3A600AA65A7 /* Rank.swift */,
+				89803F2C262DDF4500D4F7A8 /* OnWorkOut.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 				89CFF1E92619F81500182D1A /* Info.plist */,
 				89CFF1E62619F81500182D1A /* Best_Lifter.xcdatamodeld */,
 				89CFF1E12619F81500182D1A /* Preview Content */,
+				89803F39262DEABC00D4F7A8 /* StopwatchManager.swift */,
 			);
 			path = "Best Lifter";
 			sourceTree = "<group>";
@@ -175,7 +181,9 @@
 				89CFF1DE2619F81400182D1A /* ContentView.swift in Sources */,
 				8942317B262DB3A600AA65A7 /* Rank.swift in Sources */,
 				89423175262DB39D00AA65A7 /* Workout.swift in Sources */,
+				89803F3A262DEABC00D4F7A8 /* StopwatchManager.swift in Sources */,
 				89423172262DB39700AA65A7 /* Profile.swift in Sources */,
+				89803F2D262DDF4500D4F7A8 /* OnWorkOut.swift in Sources */,
 				89CFF1DC2619F81400182D1A /* Best_LifterApp.swift in Sources */,
 				89423178262DB3A100AA65A7 /* Diet.swift in Sources */,
 				8942316F262DB2EC00AA65A7 /* Home.swift in Sources */,
