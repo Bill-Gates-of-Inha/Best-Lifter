@@ -15,8 +15,8 @@ struct Best_LifterApp: App {
         WindowGroup {
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-//            Main().environment(\.managedObjectContext, persistenceController.container.viewContext)
-            OnWorkOut().environment(\.managedObjectContext, persistenceController.container.viewContext)
+            Main().environment(\.managedObjectContext, persistenceController.container.viewContext)
+//            OnWorkOut().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

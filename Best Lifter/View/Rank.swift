@@ -1,5 +1,5 @@
 //
-//  Profile.swift
+//  Rank.swift
 //  Best Lifter
 //
 //  Created by 피수영 on 2021/04/19.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Profile: View {
+struct Rank: View {
     var body: some View {
-        Text("Profile")
+        Text("")
     }
 }
 
-struct Profile_Previews: PreviewProvider {
+struct Rank_Previews: PreviewProvider {
     static var previews: some View {
-        Profile()
+        Rank()
     }
 }

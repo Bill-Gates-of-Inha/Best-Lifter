@@ -10,16 +10,17 @@ import SwiftUI
 struct Main: View {
     @State private var selection = 0
     @State private var addButtonIsTapped: Bool = false
+    @State private var showWorkoutModal: Bool = false
+    @State private var showDietModal: Bool = false
     
     var body: some View {
         ZStack() {
             VStack() {
                 TabView(selection: $selection) {
-                    Home().tag(0)
-                    Profile().tag(1)
-                    Workout().tag(2)
-                    Diet().tag(3)
-                    Rank().tag(4)
+                    Profile().tag(0)
+                    Workout().tag(1)
+                    Diet().tag(2)
+                    Rank().tag(3)
                 }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
                 Divider()
                 TabBar(selection: $selection)
@@ -29,55 +30,7 @@ struct Main: View {
                 Spacer()
                 HStack() {
                     Spacer()
-                    VStack(alignment: .center) {
-                        Button(action: {
-                            
-                        }, label: {
-                            Image("addWorkout")
-                                .renderingMode(.template)
-                                .resizable()
-                                .frame(width: 40, height: 40, alignment: .center)
-                                .foregroundColor(Color.white)
-                        })
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .background(Color(red: 0 / 255, green: 122 / 255, blue: 255 / 255))
-                        .cornerRadius(40.0)
-                        .padding(.bottom, 5)
-                        .scaleEffect(addButtonIsTapped ? 1 : 0)
-                        .animation(.easeOut(duration: 0.1))
-                        
-                        Button(action: {
-                            
-                        }, label: {
-                            Image("foodRecord")
-                                .renderingMode(.template)
-                                .resizable()
-                                .frame(width: 40, height: 40, alignment: .center)
-                                .foregroundColor(Color.white)
-                        })
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .background(Color(red: 0 / 255, green: 122 / 255, blue: 255 / 255))
-                        .cornerRadius(40.0)
-                        .padding(.bottom, 20)
-                        .scaleEffect(addButtonIsTapped ? 1 : 0)
-                        .animation(.easeOut(duration: 0.1))
-                        
-                        Button(action: {
-                            self.addButtonIsTapped.toggle()
-                            showAddButtons()
-                        }, label: {
-                            Image("plus")
-                                .renderingMode(.template)
-                                .resizable()
-                                .frame(width: 50, height: 50, alignment: .center)
-                                .foregroundColor(Color(red: 0 / 255, green: 122 / 255, blue: 255 / 255))
-                        })
-                        .rotationEffect(Angle.degrees(addButtonIsTapped ? 45 : 0))
-                        .scaleEffect(addButtonIsTapped ? 1.2 : 1)
-                        .animation(.easeOut(duration: 0.1))
-                        .padding(.bottom, 60)
-                    }
-                    .padding(.trailing, 20)
+                    hotButtonView
                 }
             }
         }
@@ -85,8 +38,71 @@ struct Main: View {
 }
 
 extension Main {
+    private var hotButtonView: some View {
+        VStack(alignment: .center) {
+            Button(action: {
+                self.showWorkoutModal.toggle()
+            }, label: {
+                Image("addWorkout")
+                    .renderingMode(.template)
+                    .resizable()
+                    .frame(width: 40, height: 40, alignment: .center)
+                    .foregroundColor(Color.white)
+            })
+            .frame(width: 50, height: 50, alignment: .center)
+            .background(Color(red: 0 / 255, green: 122 / 255, blue: 255 / 255))
+            .cornerRadius(40.0)
+            .padding(.bottom, 5)
+            .scaleEffect(addButtonIsTapped ? 1 : 0)
+            .animation(.easeOut(duration: 0.1))
+            .fullScreenCover(isPresented: self.$showWorkoutModal, content: {
+                OnWorkOut()
+            })
+            
+            Button(action: {
+                self.showDietModal.toggle()
+            }, label: {
+                Image("foodRecord")
+                    .renderingMode(.template)
+                    .resizable()
+                    .frame(width: 40, height: 40, alignment: .center)
+                    .foregroundColor(Color.white)
+            })
+            .frame(width: 50, height: 50, alignment: .center)
+            .background(Color(red: 0 / 255, green: 122 / 255, blue: 255 / 255))
+            .cornerRadius(40.0)
+            .padding(.bottom, 20)
+            .scaleEffect(addButtonIsTapped ? 1 : 0)
+            .animation(.easeOut(duration: 0.05))
+            .fullScreenCover(isPresented: self.$showDietModal, content: {
+                OnDiet()
+            })
+            
+            Button(action: {
+                self.addButtonIsTapped.toggle()
+            }, label: {
+                Image("plus")
+                    .renderingMode(.template)
+                    .resizable()
+                    .frame(width: 50, height: 50, alignment: .center)
+                    .foregroundColor(Color(red: 0 / 255, green: 122 / 255, blue: 255 / 255))
+            })
+            .rotationEffect(Angle.degrees(addButtonIsTapped ? 45 : 0))
+            .scaleEffect(addButtonIsTapped ? 1.2 : 1)
+            .animation(.easeOut(duration: 0.05))
+            .padding(.bottom, 60)
+        }
+        .padding(.trailing, 20)
+    }
+}
+
+extension Main {
     // MARK: - Methods
-    func showAddButtons() {
+    private func showWorkout() -> some View {
+        return OnWorkOut()
+    }
+    
+    private func showDiet() {
         
     }
 }
@@ -146,7 +162,6 @@ struct Main_Previews: PreviewProvider {
 }
 
 let tabs: [Tab] = [
-    Tab(image: "home", label: "home"),
     Tab(image: "profile", label: "profile"),
     Tab(image: "workoutRecord", label: "workoutRecord"),
     Tab(image: "foodRecord", label: "foodRecord"),

@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8942316F262DB2EC00AA65A7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942316E262DB2EC00AA65A7 /* Home.swift */; };
+		89089DD7263D3B1B008E3DD8 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89089DD6263D3B1B008E3DD8 /* UserInfo.swift */; };
+		89089DDB263D3C50008E3DD8 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89089DDA263D3C50008E3DD8 /* ProfileViewModel.swift */; };
+		89089DE0263D4312008E3DD8 /* RegisterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89089DDF263D4312008E3DD8 /* RegisterInfo.swift */; };
+		89317E3D263BFD9400CCA7C9 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89317E3C263BFD9400CCA7C9 /* Program.swift */; };
 		89423172262DB39700AA65A7 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423171262DB39700AA65A7 /* Profile.swift */; };
 		89423175262DB39D00AA65A7 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423174262DB39D00AA65A7 /* Workout.swift */; };
 		89423178262DB3A100AA65A7 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89423177262DB3A100AA65A7 /* Diet.swift */; };
 		8942317B262DB3A600AA65A7 /* Rank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8942317A262DB3A600AA65A7 /* Rank.swift */; };
+		894AA7CC263FDEEC00C6A320 /* OnWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894AA7CB263FDEEC00C6A320 /* OnWorkoutViewModel.swift */; };
+		896CC11C264516CF008DB9DC /* OnworkoutTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896CC11B264516CF008DB9DC /* OnworkoutTimerModel.swift */; };
 		89803F2D262DDF4500D4F7A8 /* OnWorkOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89803F2C262DDF4500D4F7A8 /* OnWorkOut.swift */; };
-		89803F3A262DEABC00D4F7A8 /* StopwatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89803F39262DEABC00D4F7A8 /* StopwatchManager.swift */; };
 		8984C482261EAA1A00B1474C /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8984C481261EAA1A00B1474C /* Main.swift */; };
+		89865DDF26301FCF006171DD /* OnDiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89865DDE26301FCF006171DD /* OnDiet.swift */; };
 		89CFF1DC2619F81400182D1A /* Best_LifterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */; };
 		89CFF1DE2619F81400182D1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CFF1DD2619F81400182D1A /* ContentView.swift */; };
 		89CFF1E02619F81500182D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CFF1DF2619F81500182D1A /* Assets.xcassets */; };
@@ -24,14 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8942316E262DB2EC00AA65A7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		89089DD6263D3B1B008E3DD8 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		89089DDA263D3C50008E3DD8 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		89089DDF263D4312008E3DD8 /* RegisterInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInfo.swift; sourceTree = "<group>"; };
+		89317E3C263BFD9400CCA7C9 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
 		89423171262DB39700AA65A7 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		89423174262DB39D00AA65A7 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
 		89423177262DB3A100AA65A7 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
 		8942317A262DB3A600AA65A7 /* Rank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rank.swift; sourceTree = "<group>"; };
+		894AA7CB263FDEEC00C6A320 /* OnWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnWorkoutViewModel.swift; sourceTree = "<group>"; };
+		896CC11B264516CF008DB9DC /* OnworkoutTimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnworkoutTimerModel.swift; sourceTree = "<group>"; };
 		89803F2C262DDF4500D4F7A8 /* OnWorkOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnWorkOut.swift; sourceTree = "<group>"; };
-		89803F39262DEABC00D4F7A8 /* StopwatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchManager.swift; sourceTree = "<group>"; };
 		8984C481261EAA1A00B1474C /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		89865DDE26301FCF006171DD /* OnDiet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDiet.swift; sourceTree = "<group>"; };
 		89CFF1D82619F81400182D1A /* Best Lifter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Best Lifter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_LifterApp.swift; sourceTree = "<group>"; };
 		89CFF1DD2619F81400182D1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,18 +63,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		89423180262DB4A400AA65A7 /* UI */ = {
+		89089DD9263D3C3A008E3DD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				89089DDA263D3C50008E3DD8 /* ProfileViewModel.swift */,
+				894AA7CB263FDEEC00C6A320 /* OnWorkoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		89089DDE263D42F9008E3DD8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				89089DDF263D4312008E3DD8 /* RegisterInfo.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		89423180262DB4A400AA65A7 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				8984C481261EAA1A00B1474C /* Main.swift */,
-				8942316E262DB2EC00AA65A7 /* Home.swift */,
 				89423171262DB39700AA65A7 /* Profile.swift */,
 				89423174262DB39D00AA65A7 /* Workout.swift */,
 				89423177262DB3A100AA65A7 /* Diet.swift */,
 				8942317A262DB3A600AA65A7 /* Rank.swift */,
 				89803F2C262DDF4500D4F7A8 /* OnWorkOut.swift */,
+				89865DDE26301FCF006171DD /* OnDiet.swift */,
 			);
-			path = UI;
+			path = View;
+			sourceTree = "<group>";
+		};
+		896CC11A264516BC008DB9DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89317E3C263BFD9400CCA7C9 /* Program.swift */,
+				89089DD6263D3B1B008E3DD8 /* UserInfo.swift */,
+				896CC11B264516CF008DB9DC /* OnworkoutTimerModel.swift */,
+				89CFF1E42619F81500182D1A /* Persistence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89B0F05D263B23F400645FE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89CFF1DF2619F81500182D1A /* Assets.xcassets */,
+				89CFF1E62619F81500182D1A /* Best_Lifter.xcdatamodeld */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		89CFF1CF2619F81400182D1A = {
@@ -86,15 +133,16 @@
 		89CFF1DA2619F81400182D1A /* Best Lifter */ = {
 			isa = PBXGroup;
 			children = (
-				89423180262DB4A400AA65A7 /* UI */,
+				89CFF1E92619F81500182D1A /* Info.plist */,
+				89E56721263ECA2300192283 /* System */,
+				896CC11A264516BC008DB9DC /* Model */,
+				89089DD9263D3C3A008E3DD8 /* ViewModel */,
+				89089DDE263D42F9008E3DD8 /* Components */,
+				89423180262DB4A400AA65A7 /* View */,
 				89CFF1DB2619F81400182D1A /* Best_LifterApp.swift */,
 				89CFF1DD2619F81400182D1A /* ContentView.swift */,
-				89CFF1DF2619F81500182D1A /* Assets.xcassets */,
-				89CFF1E42619F81500182D1A /* Persistence.swift */,
-				89CFF1E92619F81500182D1A /* Info.plist */,
-				89CFF1E62619F81500182D1A /* Best_Lifter.xcdatamodeld */,
 				89CFF1E12619F81500182D1A /* Preview Content */,
-				89803F39262DEABC00D4F7A8 /* StopwatchManager.swift */,
+				89B0F05D263B23F400645FE2 /* Resources */,
 			);
 			path = "Best Lifter";
 			sourceTree = "<group>";
@@ -105,6 +153,13 @@
 				89CFF1E22619F81500182D1A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89E56721263ECA2300192283 /* System */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,17 +231,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89317E3D263BFD9400CCA7C9 /* Program.swift in Sources */,
 				8984C482261EAA1A00B1474C /* Main.swift in Sources */,
 				89CFF1E52619F81500182D1A /* Persistence.swift in Sources */,
 				89CFF1DE2619F81400182D1A /* ContentView.swift in Sources */,
 				8942317B262DB3A600AA65A7 /* Rank.swift in Sources */,
 				89423175262DB39D00AA65A7 /* Workout.swift in Sources */,
-				89803F3A262DEABC00D4F7A8 /* StopwatchManager.swift in Sources */,
 				89423172262DB39700AA65A7 /* Profile.swift in Sources */,
 				89803F2D262DDF4500D4F7A8 /* OnWorkOut.swift in Sources */,
+				896CC11C264516CF008DB9DC /* OnworkoutTimerModel.swift in Sources */,
 				89CFF1DC2619F81400182D1A /* Best_LifterApp.swift in Sources */,
+				894AA7CC263FDEEC00C6A320 /* OnWorkoutViewModel.swift in Sources */,
+				89089DDB263D3C50008E3DD8 /* ProfileViewModel.swift in Sources */,
 				89423178262DB3A100AA65A7 /* Diet.swift in Sources */,
-				8942316F262DB2EC00AA65A7 /* Home.swift in Sources */,
+				89865DDF26301FCF006171DD /* OnDiet.swift in Sources */,
+				89089DD7263D3B1B008E3DD8 /* UserInfo.swift in Sources */,
+				89089DE0263D4312008E3DD8 /* RegisterInfo.swift in Sources */,
 				89CFF1E82619F81500182D1A /* Best_Lifter.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Suyeong.Best-Lifter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -350,7 +410,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Suyeong.Best-Lifter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
